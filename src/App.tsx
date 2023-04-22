@@ -1,10 +1,12 @@
-import Forms from "./component/Forms";
+//import Forms from "./component/Forms";
+//import FormsReactHookForms from "./component/FormsReactHookForms";
+import FormsWithZodValidation from "./component/FormsWithZodValidation";
 
 const App = () => {
   return (
     <>
       <div>
-        <Forms></Forms>
+        <FormsWithZodValidation></FormsWithZodValidation>
       </div>
     </>
   );
