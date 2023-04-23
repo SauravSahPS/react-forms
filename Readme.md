@@ -9,3 +9,8 @@
 ## install resolver for zod - this library includes resolver for various schema based library
 
 - npm i @hookform/resolvers@2.9.11
+
+
+## To fetch the data from a server or API we can use below methods. For this repo we will use axios
+-   fetch()
+-   axios - npm i axios@1.3.4
