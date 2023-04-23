@@ -10,7 +10,7 @@ const ProductListUseEffects = ({ category }: { category: string }) => {
     setProducts(["Clothing", "Household"]);
   }, [category]);
 
-  return <div>ProductListUseEffects</div>;
+  return <div>{products}</div>;
 };
 
 export default ProductListUseEffects;
